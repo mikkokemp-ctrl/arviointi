@@ -1,0 +1,15 @@
+{
+  "name": "Arviointi – 7. luokka",
+  "short_name": "Arviointi",
+  "description": "Paikallinen äidinkielen ja kirjallisuuden arviointityökalu",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f3f6f8",
+  "theme_color": "#123248",
+  "icons": [
+    {"src":"icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
+}
