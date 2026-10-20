@@ -22,9 +22,17 @@ ASENNUS IPHONEEN
 3. Paina Jaa -> Lisää Koti-valikkoon -> Lisää.
 4. Käynnistä Arviointi-kuvakkeesta. Avaa sovellus ensimmäisen kerran verkkoyhteydessä, jotta offline-tiedostot välimuistitetaan.
 
+ARVIOINTITYÖN TAVOITEPAINOT
+- Kun luot arviointityön, valitse ensin kaikki siihen liittyvät OPS-tavoitteet.
+- Valinta jakaa painotuksen aluksi mahdollisimman tasaisesti 10 prosenttiyksikön askelin. Voit muuttaa jokaisen tavoitteen osuuden valikosta.
+- Painojen summan täytyy olla täsmälleen 100 %, muuten työtä ei tallenneta.
+- Paino vaikuttaa siihen, kuinka vahvasti kyseisen työn arvosana painottuu tavoitteen kertyneessä näytössä. Yksi kokonaisarvosana ei itsessään kerro eri tavoitteiden erillisiä osaamistasoja; sitä varten tarvittaisiin tavoitekohtaiset pisteet.
+
 Käyttöönotto ja testaus:
 - Testaa ensin ilman oikeita oppilastietoja.
 - Lisää testiryhmä, tallenna arviointityö, sulje sovellus ja avaa se uudelleen.
-- Tee varmuuskopio Tiedot ja varmuuskopio -välilehdeltä.
+- Tee varmuuskopio Tiedot ja varmuuskopio -välilehdeltä. iPhonessa avautuvasta jakovalikosta valitse Tallenna Tiedostoihin ja tallenna .json-tiedosto esimerkiksi iCloud Driveen tai paikalliseen Tiedostot-kansioon.
+- Palautus: avaa sovellus samalla HTTPS-osoitteella, mene Tiedot ja varmuuskopio -välilehdelle, paina Tuo varmuuskopio ja valitse tallennettu .json-tiedosto Tiedostot-sovelluksesta. Vahvista tietojen korvaaminen. Palautus korvaa senhetkisen sovelluksen tietokannan kokonaan.
+- Jos varmuuskopio avautuu tekstinä, varmista että painoit sovelluksen Vie / tallenna varmuuskopio -painiketta. Varmuuskopion tiedostopääte on .json, ei .html.
 
 OPS-huomio: tavoitepohja on muokattava työskentelypohja eikä Espoon OPSin sanatarkasti varmennettu virallinen tavoiteluettelo.

@@ -1,7 +1,7 @@
 {
-  "name": "Arviointi – 7. luokka",
+  "name": "Arviointi – luokkakohtainen OPS-seuranta",
   "short_name": "Arviointi",
-  "description": "Paikallinen äidinkielen ja kirjallisuuden arviointityökalu",
+  "description": "Paikallinen, iPhone-ystävällinen arviointityökalu luokkien OPS-seurantaan",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
